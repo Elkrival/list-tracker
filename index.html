@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <section class="inventory">
+        <div class="inventory--view">
+            <div class="inventory--form">
+                
+                <ul class="inventory--inputbox">
+                    <li class="container container--input">
+                        <input type="text" placeholder="Product Name" class="input input--form" id="input-name">
+                    </li>
+                    <li class="container container--input">
+                        <input type="number" placeholder="Amount" class="input input--form" id="input-amount">
+                    </li>
+                    <li class="container container--input">
+                        <input type="text" placeholder="price" class="input input--form" id="input-price">
+                    </li>
+                    <li><button class="btn btn--black" id="submit--btn" onclick="takeInput()">Submit</button></li>
+                </ul>
+            </div>
+            <div class="inventory--list" id="list--container">
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

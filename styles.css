@@ -1,0 +1,57 @@
+.inventory {
+ padding: 1em;
+}
+.inventory--view {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.inventory--form{
+    border: solid #FF0DFF 1px;
+}
+.inventory--inputbox{
+    text-align: center;
+    list-style-type: none;
+}
+.product--list--display {
+    border: solid #E80C7A 1px;
+    display: inline-block;
+    width: 75%;
+    position: relative;
+}
+.product--list--name {
+    padding: 2em;
+    display: inline-block;
+    text-align: center;
+}
+.product--list--amount {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    right: 20%;
+}
+.product--list--price{
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+}
+.line {
+    width: 140px;
+height: 47px;
+border-bottom: 1px solid black;
+position: absolute;
+top: -14%;
+left: 12%;
+transform: rotate(350deg);
+margin-bottom: 40%;
+}
+.nextLine{
+    width: 120px;
+    height: 47px;
+    border-bottom: 1px solid pink;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    transform: rotate(5deg);
+    margin-bottom: 40%;
+}
